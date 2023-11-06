@@ -1,0 +1,137 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  
+  }
+  /* body{
+    background-color: yellow;
+  } */
+  
+  .container-fluid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+ 
+  .wrapper{
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    border-bottom:1px solid #ccc; ;
+  }
+  .text-input{
+    display: flex;
+  }
+  
+  .from-text{
+    height:200px;
+    width:550px
+  }
+  .to-text{
+    height:200px;
+    width:550px
+  }
+  .text-input textarea {
+    height: 250px;
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    background: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+  .text-input .to-text {
+    border-radius: 0px;
+    border-left: 1px solid #ccc;
+    border-bottom:1px solid #ccc; ;
+  }
+  .text-input .from-text{
+    border-bottom:1px solid #ccc; ;
+  }
+  .text-input textarea::placeholder {
+    color: #b7b6b6;
+  }     
+  
+  .controls,
+  li,
+  .icons,
+  .icons i {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .controls {
+    list-style: none;
+    padding: 12px 15px;
+  }
+  .controls .row .icons {
+    width: 38%;
+    
+  }
+  .row-to .icons .fas {
+    padding-left: 100px;
+  }
+  
+  .row-to select{
+    margin-left: 100px;
+  }
+  .controls .row .icons i {
+    width: 50px;
+    color: #adadad;
+    font-size: 14px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    justify-content: center;
+  }
+  .controls .row.from .icons {
+    padding-right: 15px;
+    border-right: 1px solid #ccc;
+  }
+  .controls .row.to .icons {
+    padding-left: 15px;
+    border-left: 1px solid #ccc;
+  }
+  
+  .exchange {
+    position: absolute;
+    color: #adadad;
+    cursor: pointer;
+    font-size: 16px;
+    transition: transform 0.2s ease;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* font-size: 18px;        */
+  
+  }
+  .row-to .icons{
+    padding-right: 10px;
+  }
+  .row-form .icons{
+    padding: 10px;
+  }
+  .controls .row select {
+    color: #333;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background: none;
+    padding-left: 5px;
+  }
+  select{
+    padding: 2px 30px;
+    border-radius: 5px;
+  }
+  
+  select{
+    padding: 2px 30px;
+    border-radius: 5px;
+  }
+  #from{
+  padding-right: 85px;
+  }
+  
+  
+  
